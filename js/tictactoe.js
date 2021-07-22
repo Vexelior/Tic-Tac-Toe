@@ -60,8 +60,8 @@ function checkWinConditions() {
         audio("./media/tie.mp3");
         setTimeout(function() {resetGame();}, 1000);
     }
-    function arrayIncludes(sqaureA, squareB, squareC) {
-        const a = selectedSquares.includes(sqaureA);
+    function arrayIncludes(squareA, squareB, squareC) {
+        const a = selectedSquares.includes(squareA);
         const b = selectedSquares.includes(squareB);
         const c = selectedSquares.includes(squareC);
         if (a === true && b === true && c === true) {return true;}
