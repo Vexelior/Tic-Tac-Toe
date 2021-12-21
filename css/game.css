@@ -33,4 +33,21 @@ canvas {
 
 h1 {
   text-align: center;
+  color: blanchedalmond;
+}
+
+.gameBorder {
+  border: black solid 10px; 
+  padding: 20px;
+}
+
+.gameContainer {
+  /*make the background gradient from black to white*/
+  background: linear-gradient(to bottom, black, white);
+  /*make the background image a repeating pattern*/
+  background-repeat: repeat;
+  /*make the background image scroll*/
+  background-attachment: fixed;
+  /*make the background image stretch to fill the container*/
+  background-size: cover;
 }
